@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="profile-section">
+      <img src="DAN2.JPG" alt="Photo de profil" class="profile-img">
+      <h1>GEORDAN TSHITE</h1>
+      <p>Etudiant En 2ème Licence Dans Les Sciences Informatiques</p>
+    </div>
+    
+    <nav class="nav-links">
+      <a href="#about"><i class="fas fa-user"></i> <span>À propos</span></a>
+      <a href="#skills"><i class="fas fa-code"></i> <span>Compétences</span></a>
+      <a href="#education"><i class="fas fa-graduation-cap"></i> <span>Éducation</span></a>
+      <a href="#experience"><i class="fas fa-briefcase"></i> <span>Expérience</span></a>
+      <a href="#hobbies"><i class="fas fa-heart"></i> <span>Hobbies</span></a>
+      <a href="#contact"><i class="fas fa-envelope"></i> <span>Contact</span></a>
+    </nav>
+    
+    <div class="social-links">
+      <a href="https://linkedin.com/in/username" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/username" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="mailto:email@exemple.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </aside>
+  
+  <main class="content">
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Bienvenue sur mon portfolio</h2>
+        <p>GEORDAN-TSHITE</p>
+      </div>
+    </section>
+    
+    <section id="about" class="section">
+      <h2><i class="fas fa-user"></i> À propos de moi</h2>
+      <div class="about-container">
+        <div class="about-img">
+          <img src="DAN2.JPG" alt="Photo de profil">
+        </div>
+        <div class="about-text">
+          <p>Je suis un étudiant passionné par le développement web, la création d'applications et la résolution de problèmes informatiques. Curieux, créatif et motivé à apprendre continuellement.</p>
+          <p>Jusqu'à présent, mon parcours académique en informatique m'a permis d'acquérir de solides bases théoriques que j'applique dans des projets concrets.</p>
+          <p>Je suis spécialisé dans le développement full-stack avec une préférence pour les technologies Python, Html, JavaScript.</p>
+        </div>
+      </div>
+    </section>
+    
+      <section id="skills" class="section">
+      <h2><i class="fas fa-code"></i> Compétences</h2>
+      <div class="skills-container">
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-js"></i>
+          </div>
+          <h3>Développement Web</h3>
+          <div class="tech-tags">
+            <span><i class="fab fa-html5"></i> HTML5</span>
+            <span><i class="fab fa-css3-alt"></i> CSS3</span>
+            <span><i class="fab fa-js"></i> JavaScript</span>
+          </div>
+        </div>
+        
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-flask"></i></div>
+          <h3>Framework Flask</h3>
+          <div class="tech-tags">
+            <span><i class="fab fa-python"></i> Python</span>
+            <span><i class="fas fa-server"></i> Backend</span>
+          </div>
+        </div>
+        
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fab fa-python"></i></div>
+          <h3>Python</h3>
+          <div class="tech-tags">
+            <span><i class="fas fa-chart-line"></i> Analyse</span>
+            <span><i class="fas fa-robot"></i> Automation</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="education" class="section">
+      <h2><i class="fas fa-graduation-cap"></i> Éducation</h2>
+      <div class="education-item">
+        <div class="edu-date">2023 - 2025</div>
+        <div class="edu-content">
+          <h3>Université Nouveaux Horizons</h3>
+          <p>Licence2 en Informatique, Faculté Cible: Génie Logiciel</p>
+        </div>
+      </div>
+      <div class="education-item">
+        <div class="edu-date">2017 - 2023</div>
+        <div class="edu-content">
+          <h3>Institut Uklweli</h3>
+          <p>Baccalauréat dans les Sciences avec mention bien </p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="experience" class="section">
+      <h2><i class="fas fa-briefcase"></i> Expérience</h2>
+      
+      <div class="experience-item">
+        <div class="exp-date">2025</div>
+        <div class="exp-content">
+          <h3>Simulateur de pandémie SEIRS</h3>
+          <p>Application web de modélisation épidémiologique permettant de prédire la propagation des maladies infectieuses selon le modèle SEIRS (Susceptible-Exposé-Infecté-Rétabli-Susceptible).</p>
+          
+          <ul class="exp-details">
+            <li>Implémentation des équations différentielles du modèle SEIRS avec Python</li>
+            <li>Interface interactive avec paramétrage des variables épidémiologiques</li>
+            <li>Visualisation dynamique des courbes avec Chart.js</li>
+            <li>Système d'export des données au format CSV</li>
+            <li>Calcul du taux de reproduction de base (R0) et du pic épidémique</li>
+          </ul>
+          
+          <div class="tech-tags">
+            <span>Python</span>
+            <span>Flask</span>
+            <span>JavaScript</span>
+            <span>Chart.js</span>
+            <span>Modélisation mathématique</span>
+            <span>Pandas</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="experience-item">
+        <div class="exp-date">2024</div>
+        <div class="exp-content">
+          <h3>Gestion de bibliothèque</h3>
+          <p>Création d'une application de gestion de bibliothèque avec Python, SQLite et Flask.</p>
+          
+          <ul class="exp-details">
+            <li>Système complet de gestion des emprunts et retours</li>
+            <li>Interface administrateur avec gestion des utilisateurs</li>
+            <li>Système de recherche avancée des livres</li>
+            <li>Génération de rapports statistiques</li>
+          </ul>
+          
+          <div class="tech-tags">
+            <span>Python</span>
+            <span>Flask</span>
+            <span>SQLite</span>
+            <span>HTML/CSS</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="experience-item">
+        <div class="exp-date">2024</div>
+        <div class="exp-content">
+          <h3>Drive Code Learning</h3>
+          <p>Développement d'une application web responsive permettant d'apprendre le code de la route.</p>
+          
+          <ul class="exp-details">
+            <li>Base de données de questions et réponses</li>
+            <li>Mode examen avec chronométrage</li>
+            <li>Statistiques de progression</li>
+            <li>Interface utilisateur intuitive</li>
+          </ul>
+          
+          <div class="tech-tags">
+            <span>JavaScript</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>MySQL</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="experience-item">
+        <div class="exp-date">2024</div>
+        <div class="exp-content">
+          <h3>Application de gestion de tâches</h3>
+          <p>Création d'une application web pour la gestion de tâches avec Flask et SQLite.</p>
+          
+          <ul class="exp-details">
+            <li>Système d'authentification des utilisateurs</li>
+            <li>Catégorisation des tâches</li>
+            <li>Notifications et rappels</li>
+            <li>Interface responsive</li>
+          </ul>
+          
+          <div class="tech-tags">
+            <span>Flask</span>
+            <span>SQLite</span>
+            <span>HTML/CSS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="hobbies" class="section">
+      <h2><i class="fas fa-heart"></i> Hobbies</h2>
+      <div class="hobbies-grid">
+        <div class="hobby-card">
+          <i class="fas fa-music"></i>
+          <p>Musique</p>
+        </div>
+        <div class="hobby-card">
+          <i class="fas fa-star"></i>
+          <p>Danse</p>
+        </div>
+        <div class="hobby-card">
+          <i class="fas fa-futbol"></i>
+          <p>Football</p>
+        </div>
+        <div class="hobby-card">
+          <i class="fas fa-basketball-ball"></i>
+          <p>Basketball</p>
+        </div>
+        <div class="hobby-card">
+          <i class="fas fa-gamepad"></i>
+          <p>Jeux vidéo</p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact" class="section">
+      <h2><i class="fas fa-envelope"></i> Contact</h2>
+      <div class="contact-container">
+        <div class="contact-card">
+          <i class="fas fa-envelope"></i>
+          <div class="contact-info">
+            <h3>Email</h3>
+            <p>geordandmbuyu@gmail.com</p>
+          </div>
+          <a href="mailto:geordandmbuyu@gmail.com" class="contact-link">Envoyer un email</a>
+        </div>
+        
+        <div class="contact-card">
+          <i class="fab fa-github"></i>
+          <div class="contact-info">
+            <h3>GitHub</h3>
+            <p>github.com/Geordan-Mbuyu</p>
+          </div>
+          <a href="https://github.com/Geordan-Mbuyu" target="_blank" class="contact-link">Voir mon profil</a>
+        </div>
+        
+        <div class="contact-card">
+          <i class="fab fa-linkedin"></i>
+          <div class="contact-info">
+            <h3>LinkedIn</h3>
+            <p>linkedin.com/in/Geordan-Mbuyu</p>
+          </div>
+          <a href="https://linkedin.com/in/Geordan-Mbuyu" target="_blank" class="contact-link">Me connecter</a>
+        </div>
+      </div>
+    </section>
+    
+    <footer>
+      <p>&copy; 2025 - Mon Portfolio | Développé avec passion</p>
+    </footer>
+  </main>
+</body>
+</html>
